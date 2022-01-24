@@ -7,7 +7,7 @@ def name = "Pelle"
 int programmingPoints = 10
 
 println "Hello ${name}"
-println "${name} has at least ${programmingPoints} programming points."
+println "${name} has at least ${GetUserProgrammingPoints(name)} programming points!"
 println "${programmingPoints} squared is ${square(programmingPoints)}"
 println "${programmingPoints} divided by 2 bonus points is ${divide(programmingPoints, 2)}"
 println "${programmingPoints} minus 7 bonus points is ${subtract(programmingPoints, 7)}"
